@@ -4,3 +4,8 @@ with open ("faah.txt", "r") as file:
     
     red = file.read()
     print(red)
+with open ("faah.txt", "a") as file:
+    file.write("\nWelcome to Python programming!")
+with open ("faah.txt", "r") as file:
+    red = file.read()
+    print(red)
