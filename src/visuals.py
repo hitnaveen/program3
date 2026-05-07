@@ -20,3 +20,4 @@ pen.hideturtle()
 
 # Keep window open
 turtle.done()
+print("Spiral drawn successfully!")
